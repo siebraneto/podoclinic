@@ -2,7 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
 :root {
 
 --fonte-destaque: 'Bebas Neue', cursive;
@@ -68,7 +71,11 @@ main {
     margin: auto;
     background-color: rgba(23, 144, 138, 0.349);
     border-radius: 5px;
+<<<<<<< HEAD
     margin-top: -436px;
+=======
+    margin-top: -218px;
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
     margin-bottom: 62px;
     }
 
@@ -81,24 +88,38 @@ padding: 25px;
 
 }
 
+<<<<<<< HEAD
 section.serviços {
     text-align: left;
     padding: 25px;
     }
 
 section.serviços img {
+=======
+section#redes-sociais {
+    text-align: right;
+    padding: 25px;
+}
+
+section#redes-sociais img {
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
     width: 60px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
       }
 
+<<<<<<< HEAD
 section.serviços img:hover {
+=======
+   section#redes-sociais img:hover {
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
     border: 2px solid rgba(255, 255, 255, 0.608);
     box-sizing: border-box;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
     transition: transform 0.5s, border 0.5s;
+<<<<<<< HEAD
 }
 
 
@@ -107,11 +128,20 @@ section#eu {
 background-image: center;
 background-size: cover;
 transform: translate(3.5%, 5%);
+=======
+    }
+
+    section#eu {
+        background-image: center;
+        background-size: cover;
+transform: translate(5%, 12%);
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
 animation: fadeInAnimation ease 2s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
+<<<<<<< HEAD
                 }
 
 
@@ -169,6 +199,33 @@ animation: fadeIn 0.5s;
                 }
 
 
+=======
+                        }
+
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+            }
+    }
+
+        section#rp2 {
+            background-size: cover;
+            transform: translate(5%, -45%);
+            -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+        animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+            }
+            
+>>>>>>> c1c44b2b86b6082387896e17bf0916f534df6edf
 
 
     
