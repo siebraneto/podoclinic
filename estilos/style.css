@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
 :root {
 
 --fonte-destaque: 'Bebas Neue', cursive;
@@ -11,23 +12,21 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-body {
-   
-    background-image: url('../Fundo\ 1.jpeg');
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    overflow-x: hidden;
-        }
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #11403B;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
 
 nav {
     background-color: #11403b76;
-    width: 100%;
-    padding: 10px;
-    padding-right: -20px;
+    width: 100vw;
+    padding: 25px;
     text-align: center;
 }
 
@@ -57,9 +56,20 @@ nav a.sv {
     
  }
 
+body {
+    background-color: #11403b76;
+    background-image: url('../Fundo\ 1.jpeg');
+    background-size: cover;    
+}
+
 main {
-    height: 100vh;
-    position: relative;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(23, 144, 138, 0.349);
+    border-radius: 5px;
+    margin-top: -436px;
+    margin-bottom: 62px;
     }
 
 nav > a:hover {
@@ -67,50 +77,99 @@ color: #ffffff;
 text-shadow: 1px 1px 5px rgb(255, 255, 255);
 font-size: 35px;
 transition: 0.5s;
+padding: 25px;
+
 }
 
-section#redes-sociais {
-    text-align: right;
+section.serviços {
+    text-align: left;
     padding: 25px;
-}
+    }
 
-section#redes-sociais img {
+section.serviços img {
     width: 60px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
       }
 
-   section#redes-sociais img:hover {
+section.serviços img:hover {
     border: 2px solid rgba(255, 255, 255, 0.608);
     box-sizing: border-box;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
     transition: transform 0.5s, border 0.5s;
-    }
-
-    section#eu {
-    transform: translate(5%, -50%);
-    -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
-        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
-           }
-
-        section#podo {
-            text-align: right;
-                       transform: translate(-20%, -50% );
-            -webkit-filter: drop-shadow(0px 0px 5px rgba(2, 80, 73, 0.477)); 
-                filter: drop-shadow(0px 0px 5px rgba(2, 80, 73, 0.477));
-                }
-    
-    section#rp {
-        transform: translate(4.5%, -200%);
-        }
-
-section > img.check {
-    transform: translate(50%, -50% );
-    display: none;
 }
 
 
 
-      
+section#eu {
+background-image: center;
+background-size: cover;
+transform: translate(3.5%, 5%);
+-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
+filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+                }
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;        }
+    }
+
+section#rp2 {
+background-size: cover;
+transform: translate(5%, 0%);
+-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
+filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+#desc {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    transform: translate(1%, 2%);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.509);
+    }
+
+    #pg {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 10px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        color: #ffffff;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        text-align: center;
+        transform: translate(1%, 3%);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.509);
+                }
+
+
+
+
+    
+   
