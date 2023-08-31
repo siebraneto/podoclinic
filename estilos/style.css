@@ -11,18 +11,21 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 html, body {
     height: 100vh;
     width: 100vw;
     background-color: #11403B;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
 
 nav {
     background-color: #11403b76;
     width: 100vw;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -55,17 +58,17 @@ nav a.sv {
 body {
     background-color: #11403b76;
     background-image: url('../Fundo\ 1.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-      
+    background-size: cover;    
 }
 
 main {
-    height: 100vh;
-    position: relative;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(23, 144, 138, 0.349);
+    border-radius: 5px;
+    margin-top: -218px;
+    margin-bottom: 62px;
     }
 
 nav > a:hover {
@@ -73,6 +76,8 @@ color: #ffffff;
 text-shadow: 1px 1px 5px rgb(255, 255, 255);
 font-size: 35px;
 transition: 0.5s;
+padding: 25px;
+
 }
 
 section#redes-sociais {
@@ -96,16 +101,40 @@ section#redes-sociais img {
     }
 
     section#eu {
-    transform: translate(31%, -60%);
-    -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
-        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+        background-image: center;
+        background-size: cover;
+transform: translate(5%, 12%);
+-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
+filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
                         }
 
-        section#podo {
-            text-align: right;
-                       transform: translate(-20%, -50% );
-            -webkit-filter: drop-shadow(0px 0px 5px rgba(2, 80, 73, 0.477)); 
-                filter: drop-shadow(0px 0px 5px rgba(2, 80, 73, 0.477));
-                }
 
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+            }
+    }
+
+        section#rp2 {
+            background-size: cover;
+            transform: translate(5%, -45%);
+            -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.323)); 
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.334));
+        animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+            }
+            
+
+
+    
    
