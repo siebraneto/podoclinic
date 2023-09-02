@@ -23,6 +23,7 @@ body {
     background-image: url('../Fundo\ 1.jpeg');
     overflow-x: hidden;
     overflow-y: hidden;
+    
            }
 
 nav {
@@ -192,12 +193,12 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.509);
         }
 
 #check1 {
-transform: translate(750px, -1210px);
+transform: translate(-150px, -1950px);
 }
 
 #lista1 {
     color: rgb(5, 81, 5);
-    transform: translate(800px, -1265px);
+    transform: translate(800px, -2000px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -213,14 +214,14 @@ padding-bottom: 5px;
 }
 
 #check2 {
-transform: translate(750px, -1210px);
+transform: translate(750px, -1980px);
 }
 
 #lista2 {
-    color: rgb(5, 81, 5);
-    transform: translate(800px, -1265px);
-    text-shadow: 1px 1px 1px #0adf4385;
-    font-family: 'Dancing Script', cursive;
+color: rgb(5, 81, 5);
+transform: translate(800px, -2030px);
+text-shadow: 1px 1px 1px #0adf4385;
+font-family: 'Dancing Script', cursive;
 font-size: 45px;
 letter-spacing: 0px;
 word-spacing: 0px;
@@ -234,13 +235,13 @@ padding-bottom: 5px;
 }
 
 #check3 {
-    transform: translate(750px, -1210px);
+    transform: translate(750px, -2005px);
 
 }
 
 #lista3 {
     color: rgb(5, 81, 5);
-    transform: translate(800px, -1265px);
+    transform: translate(800px, -2055px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -256,13 +257,13 @@ padding-bottom: 5px;
 }
 
 #check4 {
-    transform: translate(750px, -1210px);
+    transform: translate(750px, -2030px);
 
 }
 
 #lista4 {
     color: rgb(5, 81, 5);
-    transform: translate(800px, -1265px);
+    transform: translate(800px, -2082px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -278,13 +279,13 @@ padding-bottom: 5px;
 }
 
 #check5 {
-    transform: translate(750px, -1210px);
+    transform: translate(750px, -2050px);
 
 }
 
 #lista5 {
     color: rgb(5, 81, 5);
-    transform: translate(800px, -1265px);
+    transform: translate(800px, -2100px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -300,8 +301,91 @@ padding-bottom: 5px;
 }
 
 #logo {
-    transform: translate(325px, -1860px);
+    transform: translate(325px, -2068px);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.556);    
     border-radius: 20%;
+    }
+
+#logo:hover {
+    zoom: 150%;
 }
 
+#lista1:hover {
+    font-size: 60px;
+    transition: 2s;
+    text-shadow: 3px 3px 5px #ffffff;
+    color: rgba(5, 35, 35, 0.959);
+    width: 70px;
+}
+
+#check1:hover {
+    border: 10px solid black;
+            transform: scale(1.5); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+
+}
+
+#lista2:hover {
+    font-size: 60px;
+    transition: 2s;
+    text-shadow: 3px 3px 5px #ffffff;
+    color: rgba(5, 35, 35, 0.959);
+    width: 70px;
+}
+
+#check2:hover {
+    border: 10px solid black;
+            transform: scale(1.5); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+            width: 70px;
+}
+
+#lista3:hover {
+    font-size: 60px;
+    transition: 2s;
+    text-shadow: 3px 3px 5px #ffffff;
+    color: rgba(5, 35, 35, 0.959);
+    width: 70px;
+}
+
+#check3:hover {
+    border: 10px solid black;
+            transform: scale(1.5); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+
+}
+
+#lista4:hover {
+    font-size: 60px;
+    transition: 2s;
+    text-shadow: 3px 3px 5px #ffffff;
+    color: rgba(5, 35, 35, 0.959);
+    width: 70px;
+}
+
+#check4:hover {
+    border: 10px solid black;
+            transform: scale(1.5); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+
+}
+
+#lista5:hover {
+    font-size: 60px;
+    transition: 2s;
+    text-shadow: 3px 3px 5px #ffffff;
+    color: rgba(5, 35, 35, 0.959);
+    width: 70px;
+}
+
+#check5:hover {
+    border: 10px solid black;
+            transform: scale(1.5); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+
+}
+
+#png {
+height: 60%;
+transform: translate(650px, -1350px);
+}
