@@ -63,8 +63,7 @@ width: 80vw;
 height: 87.7vh;
 background-color: rgba(9, 47, 45, 0.349);
 border-radius: 5px;
-transform: translate(12.5%, -5.7%);
-background-size: cover;
+transform: translate(12.5%, -5.46%);
     }
 
 nav > a:hover {
@@ -195,12 +194,12 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.509);
         }
 
 #check1 {
-transform: translate(-520px, -1950px);
+transform: translate(-477px, -2060px);
 }
 
 #lista1 {
     color: rgb(5, 81, 5);
-    transform: translate(600px, -2000px);
+    transform: translate(600px, -2110px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -216,12 +215,12 @@ padding-bottom: 5px;
 }
 
 #check2 {
-transform: translate(550px, -1980px);
+transform: translate(550px, -2060px);
 }
 
 #lista2 {
 color: rgb(5, 81, 5);
-transform: translate(600px, -2030px);
+transform: translate(600px, -2110px);
 text-shadow: 1px 1px 1px #0adf4385;
 font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -237,13 +236,13 @@ padding-bottom: 5px;
 }
 
 #check3 {
-    transform: translate(550px, -2005px);
+    transform: translate(550px, -2060px);
 
 }
 
 #lista3 {
     color: rgb(5, 81, 5);
-    transform: translate(600px, -2055px);
+    transform: translate(600px, -2110px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -259,13 +258,13 @@ padding-bottom: 5px;
 }
 
 #check4 {
-    transform: translate(550px, -2030px);
+    transform: translate(550px, -2060px);
 
 }
 
 #lista4 {
     color: rgb(5, 81, 5);
-    transform: translate(600px, -2082px);
+    transform: translate(600px, -2110px);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
 font-size: 45px;
@@ -281,15 +280,15 @@ padding-bottom: 5px;
 }
 
 #check5 {
-    transform: translate(550px, -2050px);
+    transform: translate(550px, -2060px);
 
 }
 
 #lista5 {
-    color: rgb(5, 81, 5);
-    transform: translate(600px, -2100px);
-    text-shadow: 1px 1px 1px #0adf4385;
-    font-family: 'Dancing Script', cursive;
+color: rgb(5, 81, 5);
+transform: translate(600px, -2110px);
+text-shadow: 1px 1px 1px #0adf4385;
+font-family: 'Dancing Script', cursive;
 font-size: 45px;
 letter-spacing: 0px;
 word-spacing: 0px;
@@ -303,16 +302,12 @@ padding-bottom: 5px;
 }
 
 #logo {
-    width: 300px;
-    transform: translate(1050px, -1780px);
-    opacity:0.95;
-	-moz-opacity: 0.65;
-	filter: alpha(opacity=65);
-        }
+    width: 100px;
+    transform: translate(280px, -2225px);
+    filter: brightness(40%);
+    filter: contrast(1500%);
+            }
 
-#logo:hover {
-    zoom: 150%;
-}
 
 #lista1:hover {
     font-size: 60px;
@@ -391,7 +386,8 @@ padding-bottom: 5px;
 
 #png {
 height: 60%;
-transform: translate(450px, -1400px);
+transform: translate(425px, -1336px);
+filter: opacity(30%);
 }
 
 #iphone {
